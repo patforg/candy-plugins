@@ -8,7 +8,14 @@ CandyShop.RoomPanel = (function(self, Candy, Strophe, $) {
          // domain that hosts the muc rooms, only required if autoDetectRooms is enabled
         mucDomain: '',
 
-        // allow you to force a list of rooms, only required if autoDetectRoom is disabled
+        /* allow you to force a list of rooms, only required if autoDetectRoom is disabled.
+         * each item should be an object with jid and name 
+         * ex.
+         * [
+         *     {jid: 'room1@conference.myserver.com', name: 'room1'}
+         *     {jid: 'general@conference.myserver.com', name: 'General'}
+         * ]
+         */
         roomList: [],
 
         // show room list if all rooms are closed, default value is true. [optional]
