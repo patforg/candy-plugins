@@ -1,0 +1,23 @@
+dd a.avatar span, .roster-pane a.avatar span {
+    display: inline-block;
+    height: 18px;
+}
+
+dd a.avatar, .roster-pane a.avatar {
+    display: block;
+    float: left;
+}
+
+.roster-pane .user {
+    height: 18px;
+}
+
+.roster-pane .male a.avatar span, dd.male a.avatar span {
+    width: 18px;
+    background: url(/dylg-res/img/male.png) no-repeat 0 0;
+}
+
+.roster-pane .female a.avatar span ,dd.female  a.avatar span{
+    width: 18px;
+    background: url(/dylg-res/img/female.png)no-repeat 0 0;    
+}
